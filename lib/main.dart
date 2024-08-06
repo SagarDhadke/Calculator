@@ -54,8 +54,8 @@ class _MyCalculatorState extends State<MyCalculator> {
                     color: Colors.grey,
                     borderRadius: BorderRadius.circular(50)
                   ),
-                    height: 75,
-                    width: 75,
+                    height: 85,
+                    width: 85,
 
                     child: Text("AC", style: TextStyle(
                       fontSize: 25, fontWeight: FontWeight.bold, 
@@ -72,8 +72,8 @@ class _MyCalculatorState extends State<MyCalculator> {
                   borderRadius: BorderRadius.circular(50),
                   color: Colors.grey
                 ),
-                height: 75,
-                width: 75,
+                height: 85,
+                width: 85,
 
               child: Text("+/-", style: TextStyle(
                 fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
@@ -85,8 +85,8 @@ class _MyCalculatorState extends State<MyCalculator> {
 
               Container(
                 alignment: Alignment.center,
-                width: 75,
-                height: 75,
+                width: 85,
+                height: 85,
                 decoration: BoxDecoration(
                   color: Colors.grey,
                   borderRadius: BorderRadius.circular(50),
@@ -105,8 +105,8 @@ class _MyCalculatorState extends State<MyCalculator> {
                     borderRadius: BorderRadius.circular(50),
                     color: Colors.red,
                   ),
-                  width: 75,
-                  height: 75,
+                  width: 85,
+                  height: 85,
               
               child: Text("/", style: TextStyle(
                 fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
@@ -128,8 +128,8 @@ class _MyCalculatorState extends State<MyCalculator> {
                   color: Colors.blueGrey,
                 ),
                 alignment: Alignment.center,
-                height: 75,
-                width: 75,
+                height: 85,
+                width: 85,
 
               child: Text("7", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold,
               color: Colors.white),),
@@ -144,8 +144,8 @@ class _MyCalculatorState extends State<MyCalculator> {
                   borderRadius: BorderRadius.circular(50),
                   color: Colors.blueGrey
                 ),
-                height: 75,
-                width: 75,
+                height: 85,
+                width: 85,
 
               child: Text("8", style: TextStyle(fontSize: 25, color: Colors.white)),
 
@@ -159,8 +159,8 @@ class _MyCalculatorState extends State<MyCalculator> {
                     borderRadius: BorderRadius.circular(50),
                     color: Colors.blueGrey),
 
-                    width: 75,
-                    height: 75,
+                    width: 85,
+                    height: 85,
 
                 child: Text("9", style: TextStyle(
                   fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
@@ -178,8 +178,8 @@ class _MyCalculatorState extends State<MyCalculator> {
                   borderRadius: BorderRadius.circular(50),
                   color: Colors.red
                 ),
-                height: 75,
-                width: 75,
+                height: 85,
+                width: 85,
 
               child: Text("X", style: TextStyle(fontSize: 25,
                fontWeight: FontWeight.bold, color: Colors.white),),
@@ -187,7 +187,217 @@ class _MyCalculatorState extends State<MyCalculator> {
             ),
 
             ],
-          )
+          ),
+
+          SizedBox(
+            height: 20,
+          ),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(50),
+                    color: Colors.blueGrey
+                  ),
+                  height: 85,
+                  width: 85,
+
+                child: Text("4", style: TextStyle(
+                  fontSize: 25, color: Colors.white, fontWeight: FontWeight.bold
+                ),),
+
+                ),
+
+                SizedBox(
+                    width: 10,
+                ),
+
+                Container(
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(50),
+                    color: Colors.blueGrey
+                  ),
+                    height: 85,
+                    width: 85,
+
+                  child: Text("5", style: TextStyle(fontSize: 25,
+                   fontWeight: FontWeight.bold, color: Colors.white),),
+
+                ),
+
+                SizedBox(width: 10),
+
+              Container(
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(50),
+                    color: Colors.blueGrey
+                  ),
+                  height: 85,
+                  width: 85,
+
+                  child: Text("6", style: TextStyle(
+                    fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                  ),),
+              ),
+
+              SizedBox(width: 10,),
+
+
+              Container(
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(50),
+                    color: Colors.red
+                  ),
+                  height: 85,
+                  width: 85,
+
+                  child: Text("-", style: TextStyle(
+                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white
+                  ),),
+              ),
+
+              ],
+          ),
+
+          SizedBox(height: 20),
+
+          Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                      color: Colors.blueGrey
+                    ),
+
+                    width: 85,
+                    height: 85,
+
+                    child: Text("1", style: TextStyle(
+                      fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                    ),),
+
+                ),
+
+                SizedBox(
+                    width: 10,
+                ),
+
+                Container(
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(50),
+                    color: Colors.blueGrey
+                  ),
+                    height: 85,
+                    width: 85,
+
+                    child: Text("2", style: TextStyle(
+                      fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                    ),),
+                ),
+
+                SizedBox(width: 10),
+
+                Container(
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(50),
+                    color: Colors.blueGrey
+                  ),
+                    height: 85,
+                    width: 85,
+
+                    child: Text("3", style: TextStyle(
+                      fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                    ),),
+                ),
+
+                SizedBox(width: 10),
+
+                Container(
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(50),
+                    color: Colors.red
+                  ),
+                  height: 85,
+                  width: 85,
+
+                  child: Text("+", style: TextStyle(
+                    fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
+                  ),),
+                ),
+              ],
+          ),
+
+          SizedBox(
+            height: 10,
+          ),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(50),
+                  color: Colors.blueGrey
+                ),
+
+                width: 180,
+                height: 85,
+
+                child: Text("0", style: TextStyle(
+                  fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
+                ),),
+              ),
+
+              SizedBox(width: 10),
+
+            Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(50),
+                          color: Colors.blueGrey
+                        ),
+                          height: 85,
+                          width: 85,
+
+                          child: Text(".", style: TextStyle(
+                            fontSize: 35, fontWeight: FontWeight.bold,
+                            color: Colors.white
+                          ),),
+                          
+                      ),
+
+                      SizedBox(
+                        width: 10
+                      ),
+
+                      Container(
+                          alignment: Alignment.center,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(50),
+                            color: Colors.red
+                          ),
+                          width: 85,
+                          height: 85,
+
+                          child: Text("=", style: TextStyle(
+                            fontSize: 35, fontWeight: FontWeight.bold,
+                            color: Colors.white
+                          ),),
+                      ),
+            ],
+          ),
 
           ],
         ),
