@@ -43,8 +43,16 @@ class _MyCalculatorState extends State<MyCalculator> {
 
       body: SizedBox(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.end,
           children: [
+
+            Container(
+              margin: EdgeInsets.only(right: 25),
+              alignment: Alignment.topRight,
+              child: Text("0", style: TextStyle(
+              fontSize: 65, fontWeight: FontWeight.bold),),
+            ),
+            
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -398,7 +406,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                       ),
             ],
           ),
-
+        SizedBox(height: 20),
           ],
         ),
       ),
