@@ -12,7 +12,7 @@ Calculator app using Flutter
 
 ## ScreenShort 
 
-<img src="https://github.com/user-attachments/assets/f33ba8a2-9eb8-462a-8ae0-9cc9385a746c" width="348" alt="Description of image">
+<img src="https://github.com/user-attachments/assets/f33ba8a2-9eb8-462a-8ae0-9cc9385a746c" height="348" alt="Description of image">
 
 ## Clone This Project
 
