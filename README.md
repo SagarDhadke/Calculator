@@ -1,20 +1,39 @@
-<<<<<<< HEAD
-# calculator
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # Calculator
->>>>>>> ac8e8489e985a9eb3efded214d933aa8db0e620d
+
+Calculator app using Flutter
+
+
+## Features
+
+- dark mode
+- Fullscreen mode
+
+
+## ScreenShort 
+
+<img src="https://github.com/user-attachments/assets/f33ba8a2-9eb8-462a-8ae0-9cc9385a746c" width="348" alt="Description of image">
+
+## Clone This Project
+
+Clone this Project using VCS | Frok this Project
+
+```bash
+  https://github.com/sagardhadke/Calculator.git
+```
+
+## Feedback
+
+If you have any feedback, please reach out to us at peaceunique2003@gmail.com
+
+
+## 🔗 Follow Me 
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sagardhadke_uc/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sagar-dhadke-6a466b206/)
+
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sagardhadke_uc)
+
+
+[![Bug me a Coffee](https://img.shields.io/badge/donate-buy%20me%20a%20coffee-yellow?label=Donate&style=flat-square)](https://www.buymeacoffee.com/sagardhadke)
+
