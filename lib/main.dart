@@ -35,6 +35,7 @@ class _MyCalculatorState extends State<MyCalculator> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: Text(
           "Calculator"),
@@ -50,7 +51,7 @@ class _MyCalculatorState extends State<MyCalculator> {
               margin: EdgeInsets.only(right: 25),
               alignment: Alignment.topRight,
               child: Text("0", style: TextStyle(
-              fontSize: 65, fontWeight: FontWeight.bold),),
+              fontSize: 65, color: Colors.white),),
             ),
             
             Row(
@@ -59,7 +60,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                 Container(
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                    color: Colors.grey,
+                    color: Color(0xFFA4A4A4),
                     borderRadius: BorderRadius.circular(50)
                   ),
                     height: 85,
@@ -67,7 +68,7 @@ class _MyCalculatorState extends State<MyCalculator> {
 
                     child: Text("AC", style: TextStyle(
                       fontSize: 25, fontWeight: FontWeight.bold, 
-                      color: Colors.white,
+                      color: Colors.black,
                     ),),
                     
                 ),
@@ -78,13 +79,13 @@ class _MyCalculatorState extends State<MyCalculator> {
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
-                  color: Colors.grey
+                  color: Color(0xFFA4A4A4)
                 ),
                 height: 85,
                 width: 85,
 
               child: Text("+/-", style: TextStyle(
-                fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black
               ),),
 
               ),
@@ -96,13 +97,13 @@ class _MyCalculatorState extends State<MyCalculator> {
                 width: 85,
                 height: 85,
                 decoration: BoxDecoration(
-                  color: Colors.grey,
+                  color: Color(0xFFA4A4A4),
                   borderRadius: BorderRadius.circular(50),
                 ),
 
                 child: Text("%", style: TextStyle(fontSize: 25,
                  fontWeight: FontWeight.bold,
-                 color: Colors.white),),
+                 color: Colors.black),),
               ),
 
               SizedBox(width: 10,),
@@ -111,7 +112,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                 alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.red,
+                    color: Color(0xFFCA3401),
                   ),
                   width: 85,
                   height: 85,
@@ -133,16 +134,14 @@ class _MyCalculatorState extends State<MyCalculator> {
               Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
-                  color: Colors.blueGrey,
+                  color: Color(0xFF323232),
                 ),
                 alignment: Alignment.center,
                 height: 85,
                 width: 85,
 
               child: Text("7", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold,
-              color: Colors.white),),
-
-              ),
+              color: Colors.white)),),
 
               SizedBox(width: 10),
 
@@ -150,7 +149,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
-                  color: Colors.blueGrey
+                  color: Color(0xFF323232)
                 ),
                 height: 85,
                 width: 85,
@@ -165,7 +164,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.blueGrey),
+                    color: Color(0xFF323232)),
 
                     width: 85,
                     height: 85,
@@ -184,7 +183,7 @@ class _MyCalculatorState extends State<MyCalculator> {
               alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
-                  color: Colors.red
+                  color: Color(0xFFCA3401)
                 ),
                 height: 85,
                 width: 85,
@@ -208,7 +207,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.blueGrey
+                    color: Color(0xFF323232)
                   ),
                   height: 85,
                   width: 85,
@@ -227,7 +226,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.blueGrey
+                    color: Color(0xFF323232)
                   ),
                     height: 85,
                     width: 85,
@@ -243,7 +242,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.blueGrey
+                    color: Color(0xFF323232)
                   ),
                   height: 85,
                   width: 85,
@@ -260,7 +259,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.red
+                    color: Color(0xFFCA3401)
                   ),
                   height: 85,
                   width: 85,
@@ -282,7 +281,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50),
-                      color: Colors.blueGrey
+                      color: Color(0xFF323232)
                     ),
 
                     width: 85,
@@ -302,7 +301,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.blueGrey
+                    color: Color(0xFF323232)
                   ),
                     height: 85,
                     width: 85,
@@ -318,7 +317,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.blueGrey
+                    color: Color(0xFF323232)
                   ),
                     height: 85,
                     width: 85,
@@ -334,7 +333,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Colors.red
+                    color: Color(0xFFCA3401)
                   ),
                   height: 85,
                   width: 85,
@@ -357,7 +356,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
-                  color: Colors.blueGrey
+                  color: Color(0xFF323232)
                 ),
 
                 width: 180,
@@ -374,7 +373,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(50),
-                          color: Colors.blueGrey
+                          color: Color(0xFF323232)
                         ),
                           height: 85,
                           width: 85,
@@ -394,7 +393,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(50),
-                            color: Colors.red
+                            color: Color(0xFFCA3401)
                           ),
                           width: 85,
                           height: 85,
@@ -412,6 +411,8 @@ class _MyCalculatorState extends State<MyCalculator> {
       ),
 
     );
+
+    
   }
 }
   
