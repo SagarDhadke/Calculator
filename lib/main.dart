@@ -51,7 +51,7 @@ class _MyCalculatorState extends State<MyCalculator> {
               margin: EdgeInsets.only(right: 25),
               alignment: Alignment.topRight,
               child: Text("0", style: TextStyle(
-              fontSize: 65, color: Colors.white),),
+              fontSize: 75, color: Colors.white),),
             ),
             
             Row(
@@ -67,7 +67,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                     width: 85,
 
                     child: Text("AC", style: TextStyle(
-                      fontSize: 25, fontWeight: FontWeight.bold, 
+                      fontSize: 30, fontWeight: FontWeight.bold, 
                       color: Colors.black,
                     ),),
                     
@@ -85,7 +85,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                 width: 85,
 
               child: Text("+/-", style: TextStyle(
-                fontSize: 25, fontWeight: FontWeight.bold, color: Colors.black
+                fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black
               ),),
 
               ),
@@ -101,7 +101,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   borderRadius: BorderRadius.circular(50),
                 ),
 
-                child: Text("%", style: TextStyle(fontSize: 25,
+                child: Text("%", style: TextStyle(fontSize: 35,
                  fontWeight: FontWeight.bold,
                  color: Colors.black),),
               ),
@@ -118,7 +118,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   height: 85,
               
               child: Text("/", style: TextStyle(
-                fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
               ),),
               
               ),
@@ -140,7 +140,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                 height: 85,
                 width: 85,
 
-              child: Text("7", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold,
+              child: Text("7", style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold,
               color: Colors.white)),),
 
               SizedBox(width: 10),
@@ -154,7 +154,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                 height: 85,
                 width: 85,
 
-              child: Text("8", style: TextStyle(fontSize: 25, color: Colors.white)),
+              child: Text("8", style: TextStyle(fontSize: 35, color: Colors.white)),
 
               ),
 
@@ -170,7 +170,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                     height: 85,
 
                 child: Text("9", style: TextStyle(
-                  fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                  fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
                 ),),
 
               ),
@@ -188,7 +188,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                 height: 85,
                 width: 85,
 
-              child: Text("X", style: TextStyle(fontSize: 25,
+              child: Text("X", style: TextStyle(fontSize: 35,
                fontWeight: FontWeight.bold, color: Colors.white),),
 
             ),
@@ -213,7 +213,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   width: 85,
 
                 child: Text("4", style: TextStyle(
-                  fontSize: 25, color: Colors.white, fontWeight: FontWeight.bold
+                  fontSize: 35, color: Colors.white, fontWeight: FontWeight.bold
                 ),),
 
                 ),
@@ -231,7 +231,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                     height: 85,
                     width: 85,
 
-                  child: Text("5", style: TextStyle(fontSize: 25,
+                  child: Text("5", style: TextStyle(fontSize: 35,
                    fontWeight: FontWeight.bold, color: Colors.white),),
 
                 ),
@@ -248,7 +248,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                   width: 85,
 
                   child: Text("6", style: TextStyle(
-                    fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                    fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
                   ),),
               ),
 
@@ -288,7 +288,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                     height: 85,
 
                     child: Text("1", style: TextStyle(
-                      fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                      fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
                     ),),
 
                 ),
@@ -307,7 +307,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                     width: 85,
 
                     child: Text("2", style: TextStyle(
-                      fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                      fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
                     ),),
                 ),
 
@@ -323,7 +323,7 @@ class _MyCalculatorState extends State<MyCalculator> {
                     width: 85,
 
                     child: Text("3", style: TextStyle(
-                      fontSize: 25, fontWeight: FontWeight.bold, color: Colors.white
+                      fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
                     ),),
                 ),
 
@@ -362,9 +362,13 @@ class _MyCalculatorState extends State<MyCalculator> {
                 width: 180,
                 height: 85,
 
-                child: Text("0", style: TextStyle(
-                  fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white
-                ),),
+                child: Container(
+                  alignment: Alignment.centerLeft,
+                  margin: EdgeInsets.only(left: 35),
+                  child: Text("0", style: TextStyle(
+                    fontSize: 45, fontWeight: FontWeight.normal, color: Colors.white
+                  ),),
+                ),
               ),
 
               SizedBox(width: 10),
